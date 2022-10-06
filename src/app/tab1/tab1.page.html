@@ -1,18 +1,23 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color=primary>
     <ion-title>
       Calculadora
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen]="true" color="light">
+  <br>
   <ion-grid>
     <ion-label>Valor 1</ion-label>
-    <ion-input placeholder="Enter Input"></ion-input>
+    <ion-item>
+      <ion-input placeholder="Resultado"></ion-input>
+    </ion-item>
     <hr>
     <ion-label>Valor 2</ion-label>
-    <ion-input placeholder="Enter Input"></ion-input>
+    <ion-item>
+      <ion-input placeholder="Resultado"></ion-input>
+    </ion-item>
     <hr>
     <ion-row>
       <ion-col>
